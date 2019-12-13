@@ -1,0 +1,333 @@
+img.background{
+position:fixed;
+top:30px;
+left:65px;
+z-index:-50;
+width:100%;
+height:100%;
+}
+body {
+    height: auto;
+   
+}
+
+div.menu1 {
+    width:80%;
+    height:25%;
+    max-height: 25%;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    background-color:black;
+    position:fixed;
+    top:0px;
+    left:15%;
+    z-index:2;
+    padding-left:40px;
+    padding-right:5%;
+}
+div.menu2 {
+    width:15%;
+    height:100%;
+    min-width: 120px;
+    margin: 0;
+    border: none;
+    padding: 0px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:3;
+    background-color:#555;
+}
+
+table.one{
+    width:100%;
+    margin:0%;
+    border:none;
+    background-color:inherit;
+    height:100%;
+    color:red;
+}
+table.two{
+    
+    margin:0;
+    border:none;
+    padding-top:40px;
+    background-color:inherit;
+}
+
+th{
+    padding:10px;
+    border:none;
+    background-color:inherit;
+}
+button{
+    text-decoration:none;
+    width:100%;
+    height:100%;
+    border:none;
+    border-radius:25px;
+    background-color:inherit;
+    color:white;
+    padding:15px;
+    font-size:2em;
+    -webkit-transition:box-shadow .7s;
+    transition:box-shadow .7s;
+}
+button.uno:hover{
+    background-size:100px;
+    background-repeat:no-repeat;
+    color:Lightblue;
+    transition:all .8s;
+    text-shadow: 0 0 4px lightblue;
+    cursor: pointer;
+    
+}
+button.dos:hover{
+    background-color:#444;
+}
+#rk:hover{
+    background-image: url("https://codehs.com/uploads/4fff392f604b70b61bfea942b648e30a");
+    background-size:cover;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0);
+    transition: .8s ease;
+}
+#cof:hover{
+    background-image: url("https://codehs.com/uploads/b17170b349ea7dee0f412ff3c5b86dac");
+    background-size:cover;
+    cursor: pointer;
+   color: rgba(0, 0, 0, 0);
+    transition: .8s ease;
+}
+
+#lmh:hover{
+    background-image: url("https://codehs.com/uploads/3c0917872345e4db4ffcda71a0623f1a");
+    background-size:cover;
+    cursor: pointer;
+   color: rgba(0, 0, 0, 0);
+    transition: .8s ease;
+}
+
+#dts:hover{
+    background-image: url("https://codehs.com/uploads/e006bc91a02b4fb09cdfe1854481d64b");
+    background-size:cover;
+    cursor: pointer;
+   color: rgba(0, 0, 0, 0);
+    transition: .8s ease;
+}
+
+
+img.background{
+position:fixed;
+top:20%;
+left:13%;
+z-index:-50;
+width:100%;
+height:100%;
+}
+.button4 {
+    background-color:black;
+}
+
+/*css we had in html */
+  .dos {
+        line-height: 100%;
+        font-size: 1em;
+        padding: 15%;
+        background-color: #555555;
+        cursor: pointer;
+    }
+
+    table {
+        height:25%;
+    }
+    .two {
+    width: max-content;
+        max-width: 100%;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    .menu2 {
+        overflow-x: hidden;
+        overflow-y: hidden;
+        width: 15%;
+    }
+
+    .dos:hover {
+        line-height: 100%;
+        padding: 15%;
+        background-color: #444444;
+        cursor: pointer;
+    }
+    
+    table.two {
+        padding:0;
+    }
+    
+    table.one {
+        padding: 0;
+    }
+    
+    .uno {
+        line-height: 100%;
+        font-size:1em;
+        cursor: pointer;
+    }
+
+.book{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:0;
+    margin:0;
+    font-size:1.7em;
+}
+.button {
+  background-color:red; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.button1 {
+  position: absolute;
+  background-color: blue;
+  border: solid;
+  font-size: 28px;
+  color: white;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  top:40%;
+  left:530px;
+  height:150px;
+  right:600px;
+  
+}
+.button2 {
+  position: absolute;
+  background-color: blue;
+  border: solid;
+  font-size: 28px;
+  color: white;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  top:40%;
+  left:300px;
+  height:150px;
+  right:650px;
+  
+}
+.button3 {
+  position: absolute;
+  background-color: blue;
+  border: solid;
+  font-size: 28px;
+  color: white;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  top:40%;
+  left:760px;
+  height:150px;
+  right:650px;
+}
+.button4{
+  position: absolute;
+  background-color: blue;
+  border: solid;
+  font-size: 28px;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+   top:40%;
+  left:200px;
+  height:150px;
+  right:100px;
+}
+.button5{
+  position: absolute;
+  background-color: blue;
+  border: solid;
+  font-size: 28px;
+  color: white;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+   top:40%;
+  left:1005px;
+  height:150px;
+  right:650px;
+}
+
+.button:after {
+  content: "";
+  background: white;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+ .background{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+    padding:0;
+    margin:0;
+}
+body{
+    width:100%;
+    height:100%;
+    overflow:hidden;
+}
+
